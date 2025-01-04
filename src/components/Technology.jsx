@@ -46,12 +46,11 @@ const Technology = () => {
           <p className="mt-2 text-center">Azure</p>
         </div>
         <div className="rounded-2xl border-4 border-white-800 p-4">
-          <img
-            src="/src/assets/powerbi-logo.png"
-            alt="Power BI"
-            className="h-20 w-20 mx-auto"
-          />
-          <p className="mt-2 text-center">Power BI</p>
+        <img
+          src="/assets/powerbi-logo.png"
+          alt="Power BI"
+          className="h-20 w-20 mx-auto"/>
+        <p className="mt-2 text-center">Power BI</p>
         </div>
 
         <div className="flex flex-col items-center rounded-2xl border-4 border-gray-200 p-4">
