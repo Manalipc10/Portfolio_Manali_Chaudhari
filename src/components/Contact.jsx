@@ -13,7 +13,7 @@ const Contact = () => {
           📞 Phone: (315) 952-3524
         </p>
         <p className="text-lg md:text-xl">
-          📧 Email: mpchaudh@syr.edu
+          📧 Email: manalipc1011@gmail.com
         </p>
       </div>
     </section>

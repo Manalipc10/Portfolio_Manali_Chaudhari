@@ -34,7 +34,7 @@ const Experience = () => {
               <p className="mb-4">
               Streamlined data workflows and unified 5+ sources into Power BI dashboards, enhancing data accuracy by 25% and boosting financial decision-making speed by 30%.              </p>
               <p className="text-sm font-semibold">
-                Key Skills:  Data Modeling, ETL, PowerBI, 
+                Key Skills:  Data Modeling, ETL, PowerBI, SQL, Python, Excel
               </p>
             </div>
           </div>
