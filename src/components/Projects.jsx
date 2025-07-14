@@ -1,12 +1,13 @@
 import React from "react";
 // Replace these imports with your own project images and correct file paths
-import Project1Image from "../assets/Project1_LA.png";
-import Project2Image from "../assets/Project2_R.png";
-import Project3Image from "../assets/Project3_DBMS.png";
-import Project4Image from "../assets/Project4_HR.png";
-import Project5Image from "../assets/Project5_comments.png";
-
-
+import Project1Image from "../assets/Project_LA.png";
+import Project2Image from "../assets/Project_R.png";
+import Project3Image from "../assets/Project_DBMS.png";
+import Project4Image from "../assets/Project_HR.png";
+import Project5Image from "../assets/Project_comments.png";
+import Project6Image from "../assets/Project_Kafka.png";
+import Project7Image from "../assets/Project_Tableau.png";
+import Project8Image from "../assets/Project_BookFinderX.png";
 
 
 const Projects = () => {
@@ -20,11 +21,47 @@ const Projects = () => {
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Card 1 */}
+
+         {/* Card 1 */}
+         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src={Project6Image}
+              alt="Project 1"
+              className="h-48 w-full object-cover"
+            />
+            <div className="p-6 text-neutral-800">
+              <h3 className="text-xl font-semibold mb-2">StockFlow: Kafka-Powered Market Stream </h3>
+              <p className="mb-4">
+              Deployed a real-time stock data pipeline using Kafka, AWS S3, Glue, and Athena, enabling low-latency analytics and improving data availability and insight delivery.              </p>
+              <p className="text-sm font-semibold">
+              Key Technologies: Kafka, Zookeeper, AWS EC2, S3, Glue, Athena</p>
+            </div>
+          </div>
+
+
+
+          {/* Card 2 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
+              src={Project7Image}
+              alt="Project 2"
+              className="h-48 w-full object-cover"
+            />
+            <div className="p-6 text-neutral-800">
+              <h3 className="text-xl font-semibold mb-2">Customer Insights Dashboard</h3>
+              <p className="mb-4">
+              Designed an interactive Tableau dashboard analyzing 1,200+ British Airways reviews over 7 years, uncovering service gaps and driving a 15% improvement through data-driven insights              </p>
+              <p className="text-sm font-semibold">
+                Key Technologies: Data Cleaning, Tableau
+              </p>
+            </div>
+          </div>
+
+           {/* Card 3 */}
+           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
               src={Project1Image}
-              alt="Project 1"
+              alt="Project 3"
               className="h-48 w-full object-cover"
             />
             <div className="p-6 text-neutral-800">
@@ -38,7 +75,26 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Card 2 */}
+
+          {/* Card 4 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src={Project8Image}
+              alt="Project 4"
+              className="h-48 w-full object-cover"
+            />
+            <div className="p-6 text-neutral-800">
+              <h3 className="text-xl font-semibold mb-2">BookFinderX</h3>
+              <p className="mb-4">
+              Built BookFinderX, a real-time book recommendation system using NLP and vector search to deliver personalized suggestions with an interactive Streamlit interface              </p>
+              <p className="text-sm font-semibold">
+                Key Technologies: SentenceTransformers, ChromaDB, OpenLibrary API, Streamlit, Python, Cosine Similarity, Vector Embeddings
+              </p>
+            </div>
+          </div>
+
+
+          {/* Card 5 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project2Image}
@@ -56,7 +112,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Card 3 */}
+          {/* Card 6 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project3Image}
@@ -75,7 +131,7 @@ const Projects = () => {
             </div>
           </div>
 
-              {/* Card 4 */}
+              {/* Card 7 */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project4Image}
@@ -94,7 +150,7 @@ const Projects = () => {
             </div>
           </div>
 
-            {/* Card 5 */}
+            {/* Card 8 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project5Image}
