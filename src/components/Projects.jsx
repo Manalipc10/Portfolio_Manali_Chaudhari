@@ -8,7 +8,8 @@ import Project5Image from "../assets/Project_comments.png";
 import Project6Image from "../assets/Project_Kafka.png";
 import Project7Image from "../assets/Project_Tableau.png";
 import Project8Image from "../assets/Project_BookFinderX.png";
-
+import Project9Image from "../assets/Project_performance_dashboard.png";
+import Project10Image from "../assets/House_Sales_Dashboard.png";
 
 const Projects = () => {
   return (
@@ -22,11 +23,43 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-         {/* Card 1 */}
+        {/* Card 10 */}
+         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src={Project10Image}
+              alt="Project 10"
+              className="h-48 w-full object-cover"
+            />
+            <div className="p-6 text-neutral-800">
+              <h3 className="text-xl font-semibold mb-2">King County House Sales Dashboard </h3>
+              <p className="mb-4">
+              Designed an interactive Tableau dashboard visualizing 21,000+ house sales across King County, Washington, analyzing trends in price, square footage, and location. Enabled real estate stakeholders to identify pricing patterns, evaluate property conditions, and optimize investment strategies using heatmaps, filters, and geographic insights  </p>
+              <p className="text-sm font-semibold">
+              Key Technologies: Data Cleaning, Tableau, Data Visualization, Exploratory Data Analysis (EDA)</p>
+            </div>
+          </div>
+
+        {/* Card 9 */}
+         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src={Project9Image}
+              alt="Project 9"
+              className="h-48 w-full object-cover"
+            />
+            <div className="p-6 text-neutral-800">
+              <h3 className="text-xl font-semibold mb-2">Global Sales & Profit Performance Dashboard </h3>
+              <p className="mb-4">
+              Developed a comprehensive Power BI dashboard tracking sales, quantity, and gross profit trends across 10+ countries and 3 product categories for 2023–2024. Enabled executives to compare YTD vs PYTD performance, identify regional sales gaps, and optimize product mix, leading to faster decision-making and improved revenue forecasting accuracy        </p>
+              <p className="text-sm font-semibold">
+              Key Technologies: Data Cleaning, Power BI, DAX, Data Modeling</p>
+            </div>
+          </div>
+        
+         {/* Card 8*/}
          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project6Image}
-              alt="Project 1"
+              alt="Project 8"
               className="h-48 w-full object-cover"
             />
             <div className="p-6 text-neutral-800">
@@ -40,11 +73,11 @@ const Projects = () => {
 
 
 
-          {/* Card 2 */}
+          {/* Card 7 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project7Image}
-              alt="Project 2"
+              alt="Project 7"
               className="h-48 w-full object-cover"
             />
             <div className="p-6 text-neutral-800">
@@ -57,11 +90,11 @@ const Projects = () => {
             </div>
           </div>
 
-           {/* Card 3 */}
+           {/* Card 6 */}
            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project1Image}
-              alt="Project 3"
+              alt="Project 6"
               className="h-48 w-full object-cover"
             />
             <div className="p-6 text-neutral-800">
@@ -76,11 +109,11 @@ const Projects = () => {
           </div>
 
 
-          {/* Card 4 */}
+          {/* Card 5 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project8Image}
-              alt="Project 4"
+              alt="Project 5"
               className="h-48 w-full object-cover"
             />
             <div className="p-6 text-neutral-800">
@@ -94,11 +127,11 @@ const Projects = () => {
           </div>
 
 
-          {/* Card 5 */}
+          {/* Card 4 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project2Image}
-              alt="Project 2"
+              alt="Project 4"
               className="h-48 w-full object-cover"
             />
             <div className="p-6 text-neutral-800">
@@ -112,7 +145,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Card 6 */}
+          {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project3Image}
@@ -131,11 +164,11 @@ const Projects = () => {
             </div>
           </div>
 
-              {/* Card 7 */}
+              {/* Card 2 */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project4Image}
-              alt="Project 4"
+              alt="Project 2"
               className="h-48 w-full object-cover"
             />
             <div className="p-6 text-neutral-800">
@@ -150,11 +183,11 @@ const Projects = () => {
             </div>
           </div>
 
-            {/* Card 8 */}
+            {/* Card 1 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
               src={Project5Image}
-              alt="Project 5"
+              alt="Project 1"
               className="h-48 w-full object-cover"
             />
             <div className="p-6 text-neutral-800">
