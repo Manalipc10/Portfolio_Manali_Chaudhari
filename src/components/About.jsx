@@ -68,15 +68,11 @@ const About = () => {
               Manali Chaudhari
             </h1>
 
-            <p className="text-lg md:text-xl lg:text-2xl text-neutral-900 mb-4">
-              MS in Information Studies at Syracuse University
-            </p>
-
             <span
               className="text-3xl lg:text-4xl tracking-tight"
               style={{ color: "#6A0DAD" }}
             >
-              Data Analyst
+              Data Analyst | BI | Growth Analytics
             </span>
 
             <p className="mt-6 text-base md:text-lg text-gray-700">
